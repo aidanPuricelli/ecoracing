@@ -10,6 +10,10 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './home/about/about.component';
 import { InstaPhotosComponent } from './home/insta-photos/insta-photos.component';
+import { SponsorsComponent } from './sponsors/sponsors.component';
+import { ContactComponent } from './home/contact/contact.component';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,11 +24,14 @@ import { InstaPhotosComponent } from './home/insta-photos/insta-photos.component
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    InstaPhotosComponent
+    InstaPhotosComponent,
+    SponsorsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

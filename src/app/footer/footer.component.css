@@ -3,7 +3,7 @@
 .block {
     display: inline-block;
     height: 250px;
-    background-color: #FB1B;
+    background-color: #F1B82D;
     width: 33%;
 }
 
@@ -24,6 +24,7 @@
 #middle {
     border-left: solid 2px black;
     border-right: solid 2px black;
+    border-top: solid 2px black;
 }
 
 .bottom-container {
@@ -56,4 +57,14 @@
 
 .card-txt {
     margin-top: -10px;
+}
+
+#outside-left {
+    border-left: solid 2px black;
+    border-top: solid 2px black;
+}
+
+#outside-right {
+    border-right: solid 2px black;
+    border-top: solid 2px black;
 }
