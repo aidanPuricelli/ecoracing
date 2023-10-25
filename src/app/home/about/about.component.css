@@ -31,3 +31,42 @@
     margin-right: 100px;
     font-size: 20px;
 }
+
+/* mobile only styles when the device is 0-600px in maximum width */
+@media only screen 
+and (max-device-width: 768px)
+ {
+    #parent {
+        display: block;
+        padding: 20px 0 20px 0;
+        text-align: center;
+    }
+
+    #narrow {
+        width: 100%;
+        border-right: none;
+    }
+
+    #narrow h1 {
+        padding-bottom: 0px;
+    }
+
+    #wide {
+        text-align: center;
+        flex: none;
+        margin: 0;
+    }
+
+    #wide h4 {
+        margin: 20px 20px 0 20px;
+    }
+
+ }
+
+
+/* mobile only styles when the device is up to 1000px in maximum width */
+@media only screen 
+and (max-device-width: 1000px)
+{
+
+}

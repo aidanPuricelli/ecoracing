@@ -1,0 +1,66 @@
+/* Styles for the "description" div in "sub-team-one" component */
+.desrciption {
+    display: flex;
+    justify-content: center; /* Horizontally center the child content */
+    align-items: center; /* Vertically center the child content */
+    height: 100%;
+}
+
+/* Styles for the inner "description-content" div */
+.description-content {
+    background-color: white; /* Background color for the inner content box */
+    padding: 40px; /* Space around the text */
+    max-width: 800px; /* Maximum width of the inner box */
+    text-align: center; /* Centering the text horizontally */
+    border-radius: 10px; /* Rounded corners for the inner box */
+    box-shadow: 2px 2px 2px rgb(192, 192, 192);
+}
+
+/* Style for the h1 tag */
+.description-content h1 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 50px; /* Font size for the heading */
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Style for the paragraph */
+.description-content p {
+    font-size: 22px; /* Font size for the paragraph */
+    line-height: 1.5; /* Space between the lines of the paragraph */
+    font-family: 'Oswald', sans-serif;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background-color: #f4f4f4; /* adjust this value if you want to change the background color of the container */
+    overflow: hidden;
+    width: 100%; /* full width of parent */
+    height: 500px; /* or whatever height you want */
+    margin-top: 50px;
+    background-color: #F1B82D;
+}
+
+.images img {
+    width: 33.3%; /* adjusting for four images and a 1px border between each */
+    height: 100%; /* full height of the container */
+    object-fit: cover; /* this will crop the image to cover the area without distorting */
+    transition: 0.1s;
+    margin: 0;
+    border: none;
+}
+
+
+.images img:hover {
+    transform: scale(1.05); /* gives a slight zoom effect on hover */
+    transition: 0.2s;
+}
+
+#team-leader {
+    margin-top: 30px;
+}
+
+#team-leader h1 {
+    font-size: 35px;
+}

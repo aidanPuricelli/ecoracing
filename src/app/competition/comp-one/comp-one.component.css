@@ -1,0 +1,24 @@
+.comp-one-container {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 100px;
+
+}
+
+p{
+    line-height: 30px;
+    text-align: left;
+    font-size: 1.2rem;
+    width:80%;
+  }
+  h1{
+    text-align: left;
+    font-size:4rem;
+  }
+  h2{
+    text-align: left;
+  }
+  img{
+    height:400px;
+    object-fit: cover;
+    width:80%;
+  }

@@ -1,31 +1,52 @@
-
-
-.block {
-    display: inline-block;
-    height: 250px;
-    background-color: #F1B82D;
-    width: 33%;
-}
-
-.footer-txt {
-    margin-top: 55px;
-}
-
-.footer-txt img {
-    width: 100px;
-}
-
 .container {
+    display: flex;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     width: 100%;
 }
 
-#middle {
-    border-left: solid 2px black;
-    border-right: solid 2px black;
+.block {
+    flex: 1;
+    height: 250px;
+    background-color: #F1B82D;
     border-top: solid 2px black;
 }
+
+/* Borders for middle and outside blocks */
+#outside-left {
+    border-right: solid 2px black;
+}
+#outside-right {
+    border-left: solid 2px black;
+}
+
+.footer-txt {
+    margin-top: 40px;
+}
+
+#email-txt {
+    margin-top: 50px;
+}
+
+/* Mobile Responsive - Stacking Blocks Vertically */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    /* Removing borders for mobile */
+    .block {
+        border: solid 1px black;
+    }
+
+    .footer-txt {
+        margin-top: 20px;
+    }
+
+    #email-txt {
+        margin-top: 15px;
+    }
+}
+
 
 .bottom-container {
     text-align: center;
@@ -55,16 +76,3 @@
     margin-top: 7px;
 }
 
-.card-txt {
-    margin-top: -10px;
-}
-
-#outside-left {
-    border-left: solid 2px black;
-    border-top: solid 2px black;
-}
-
-#outside-right {
-    border-right: solid 2px black;
-    border-top: solid 2px black;
-}

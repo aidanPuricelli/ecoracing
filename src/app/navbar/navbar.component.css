@@ -1,19 +1,38 @@
 .container {
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
-a {
+.container a {
     margin-left: 20px;
     text-decoration: none;
     color: black;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
 }
 
-a:hover {
+.container a:hover {
     color: rgba(222, 167, 26, 0.805);
 }
 
 .active-link {
     color: #F1B82D;
+}
+
+
+/* mobile only styles when the device is 0-600px in maximum width */
+@media only screen 
+and (max-device-width: 600px)
+ {
+    .container a {
+        font-size: 16px;
+    }
+
+ }
+
+
+/* mobile only styles when the device is up to 1000px in maximum width */
+@media only screen 
+and (max-device-width: 1000px)
+{
+
 }

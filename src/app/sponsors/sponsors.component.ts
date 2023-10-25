@@ -7,11 +7,5 @@ import { Component } from '@angular/core';
 })
 export class SponsorsComponent {
 
-  sponsors = [ {name : "Example Sponsor", url: "example.com", role: "Funding", img: "../assets/MUengineering"},
-               {name : "Example Sponsor", url: "example.com", role: "Funding", img: "../assets/MUengineering"},
-               {name : "Example Sponsor", url: "example.com", role: "Funding", img: "../assets/MUengineering"},
-               {name : "Example Sponsor", url: "example.com", role: "Funding", img: "../assets/MUengineering"}, 
-               {name : "Example Sponsor", url: "example.com", role: "Funding", img: "../assets/MUengineering"},
-               {name : "Example Sponsor", url: "example.com", role: "Funding", img: "../assets/MUengineering"} ]
-
+ 
 }
